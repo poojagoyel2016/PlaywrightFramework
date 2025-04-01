@@ -8,7 +8,7 @@ public class HomePage {
 		this.page=page;
 	}
 	private String search="input[name='search']";
-	private String searchIcon="div#search button";
+	private String searchIcon="span.input-group-btn";
 	private String searchPageHeader="div#content h1";
 	
 	public String getHomePageTitle() {
@@ -20,7 +20,7 @@ public class HomePage {
 	}
 	
 	public String doSearch(String productName) {
-		page.locator(search).fill(productName);
+		page.locator(search).first().fill(productName);
 		page.locator(searchIcon).click();
 		return page.locator(searchPageHeader).textContent();
 	}
