@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-02T09:03:30 EDT" name="regression test" finished-at="2025-04-02T09:03:41 EDT" duration-ms="10812">
+    <groups>
+    </groups>
+    <test started-at="2025-04-02T09:03:30 EDT" name="Login Test" finished-at="2025-04-02T09:03:41 EDT" duration-ms="10572">
+      <class name="qa.cart.testPages.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.cart.testPages.LoginPageTest@5e2c3d18]" started-at="2025-04-02T09:03:30 EDT" name="setup" finished-at="2025-04-02T09:03:39 EDT" duration-ms="9142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:qa.cart.testPages.LoginPageTest@5e2c3d18]" started-at="2025-04-02T09:03:39 EDT" name="loginPageNavigationTest" finished-at="2025-04-02T09:03:40 EDT" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigationTest -->
+        <test-method signature="verifyTitle()[pri:2, instance:qa.cart.testPages.LoginPageTest@5e2c3d18]" started-at="2025-04-02T09:03:40 EDT" name="verifyTitle" finished-at="2025-04-02T09:03:40 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyForgotPasswordLinkTest()[pri:3, instance:qa.cart.testPages.LoginPageTest@5e2c3d18]" started-at="2025-04-02T09:03:40 EDT" name="verifyForgotPasswordLinkTest" finished-at="2025-04-02T09:03:40 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkTest -->
+        <test-method signature="verifyLogin()[pri:4, instance:qa.cart.testPages.LoginPageTest@5e2c3d18]" started-at="2025-04-02T09:03:40 EDT" name="verifyLogin" finished-at="2025-04-02T09:03:40 EDT" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.cart.testPages.LoginPageTest@5e2c3d18]" started-at="2025-04-02T09:03:40 EDT" name="tearDown" finished-at="2025-04-02T09:03:41 EDT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.cart.testPages.LoginPageTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2025-04-02T09:03:30 EDT" name="Home Test" finished-at="2025-04-02T09:03:41 EDT" duration-ms="10812">
+      <class name="qa.cart.testPages.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:30 EDT" name="setup" finished-at="2025-04-02T09:03:39 EDT" duration-ms="9232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:39 EDT" name="homePageTitleTest" finished-at="2025-04-02T09:03:39 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="homePageURLTest()[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:39 EDT" name="homePageURLTest" finished-at="2025-04-02T09:03:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURLTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:39 EDT" name="searchTest" data-provider="getProductData" finished-at="2025-04-02T09:03:40 EDT" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:40 EDT" name="searchTest" data-provider="getProductData" finished-at="2025-04-02T09:03:40 EDT" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:40 EDT" name="searchTest" data-provider="getProductData" finished-at="2025-04-02T09:03:41 EDT" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.cart.testPages.HomePageTest@2a7f1f10]" started-at="2025-04-02T09:03:41 EDT" name="tearDown" finished-at="2025-04-02T09:03:41 EDT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.cart.testPages.HomePageTest -->
+    </test> <!-- Home Test -->
+  </suite> <!-- regression test -->
+</testng-results>
